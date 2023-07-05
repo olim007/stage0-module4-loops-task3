@@ -7,9 +7,9 @@ public class AlphabetPrinter {
         }
     }
 
-    public static void main(String[] args) {
-        for (int i = 97; i <= 122; i++) {
-            System.out.print((char) i);
-        }
-    }
+//    public static void main(String[] args) {
+//        for (int i = 97; i <= 122; i++) {
+//            System.out.print((char) i);
+//        }
+//    }
 }

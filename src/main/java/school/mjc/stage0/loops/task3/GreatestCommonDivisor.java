@@ -21,12 +21,12 @@ public class GreatestCommonDivisor {
         }
     }
 
-    public static void main(String[] args) {
-        int first = 12;
-        int second = 43;
-        first = first ^ second;
-        second = second ^ first;
-        first = first ^ second;
-        System.out.println(first + " " + second);
-    }
+//    public static void main(String[] args) {
+//        int first = 12;
+//        int second = 43;
+//        first = first ^ second;
+//        second = second ^ first;
+//        first = first ^ second;
+//        System.out.println(first + " " + second);
+//    }
 }
