@@ -1,7 +1,7 @@
 package school.mjc.stage0.loops.task3;
 
 public class GreatestCommonDivisor {
-    public void printGCD(int first, int second) {
+    public void printGCD(int first, int second) throws UnsupportedOperationException {
         if (first > second) {
             first = first ^ second;
             second = second ^ first;

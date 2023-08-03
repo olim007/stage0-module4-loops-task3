@@ -1,7 +1,7 @@
 package school.mjc.stage0.loops.task3;
 
 public class FibonacciSeries {
-    public void printFibonacci(int lastFibonacci) {
+    public void printFibonacci(int lastFibonacci) throws UnsupportedOperationException {
         int t0 = 0;
         int t1 = 1;
         int s = 0;

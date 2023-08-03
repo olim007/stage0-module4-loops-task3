@@ -36,7 +36,7 @@ class DigitsSumTest extends BaseIOTest {
     }
 
     @Test
-    public void containsNoIndexesOrSteams() throws IOException {
+    void containsNoIndexesOrSteams() throws IOException {
         Path path = Paths.get("src/main/java/school/mjc/stage0/loops/task3/DigitsSum.java");
         List<String> strings = Files.readAllLines(path);
 

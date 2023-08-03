@@ -33,7 +33,7 @@ class FibonacciSeriesTest extends BaseIOTest {
     }
 
     @Test
-    public void containsNoRecursion() throws IOException {
+    void containsNoRecursion() throws IOException {
         Path path = Paths.get("src/main/java/school/mjc/stage0/loops/task3/FibonacciSeries.java");
         List<String> strings = Files.readAllLines(path);
 

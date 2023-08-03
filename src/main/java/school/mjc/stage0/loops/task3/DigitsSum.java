@@ -1,7 +1,7 @@
 package school.mjc.stage0.loops.task3;
 
 public class DigitsSum {
-    public void printDigitsSum(int t){
+    public void printDigitsSum(int t) throws UnsupportedOperationException{
         t = Math.abs(t);
         String st = Integer.toString(t);
         int s = 0;
